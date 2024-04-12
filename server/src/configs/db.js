@@ -11,7 +11,7 @@ const mongoose = require("mongoose");
 
 let connect = () => {
   return mongoose.connect(
-    "mongodb+srv://raman:raman@cluster0.fm7rpoi.mongodb.net/ecom",
+    "mongodb+srv://mskunal07:mskunal07@cluster0.j7ecvkm.mongodb.net/",
     { useNewUrlParser: true }
   );
 };

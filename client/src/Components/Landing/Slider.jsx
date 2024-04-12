@@ -70,7 +70,7 @@ function Slider() {
 
   const handleGetRequest = async () => {
     try {
-      let res = await axios.post("https://blue-bus.onrender.com/city", {
+      let res = await axios.post("http://localhost:8080/city", {
         source,
       });
       res = res.data;
@@ -84,7 +84,7 @@ function Slider() {
 
   const handleGetRequestdes = async () => {
     try {
-      let res = await axios.post("https://blue-bus.onrender.com/city", {
+      let res = await axios.post("http://localhost:8080/city", {
         destination,
       });
       res = res.data;
@@ -119,7 +119,7 @@ function Slider() {
 
   async function getcityinfo(source, destination, date) {
     try {
-      let res = await axios.post("https://blue-bus.onrender.com/city/showcity", {
+      let res = await axios.post("http://localhost:8080/city/showcity", {
         source,
         destination,
         date,
@@ -295,27 +295,7 @@ function Slider() {
           />
           <button onClick={handleclicked}>Search</button>
         </div>
-        <div className={styles.infodiv}>
-          <div>
-            {" "}
-            <img
-              src={safty}
-              alt="shield"
-            />
-          </div>
-          <div>
-            <h4>Introducing Safety+ Program</h4>
-            <p>
-              A unique certification program that ensures safety in all buses
-            </p>
-          </div>
-          <div>
-            <div>
-              {" "}
-              <button>know More</button>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </>
   );

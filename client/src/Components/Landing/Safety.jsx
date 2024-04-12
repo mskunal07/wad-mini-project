@@ -27,17 +27,7 @@ const Safety = () => {
         />
       </div>
       <div className={styles.writingConatiner}>
-        <h2>Introducing Safety+</h2>
-        <h3>Opt to Travel Safe with redBus</h3>
-        <span
-          style={{
-            color: "blue",
-            display: "inline-block",
-            marginLeft: "4px",
-          }}
-        >
-          Know more
-        </span>
+        
         <p>
           Look for buses with &nbsp;{" "}
           <span className={styles.boldspan}> safety+ </span> &nbsp; tag while

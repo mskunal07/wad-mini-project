@@ -1,10 +1,11 @@
 [{
   "_id": {
-    "$oid": "640082f21efcfc116f406aee"
+    "$oid": "640082f21efcfc116f406aef"
   },
   "name": "Mumbai",
   "state": "Maharashtra"
-},{
+},
+{
   "_id": {
     "$oid": "640082f21efcfc116f406aef"
   },
@@ -100,4 +101,12 @@
   },
   "name": "Bhopal",
   "state": "Madhya Pradesh"
+},
+{
+  
+  "_id": {
+    "$oid": "640082f21efcfc116f406ao5"
+  },
+  "name": "Shirdi",
+  "state": "Maharashtra"
 }]

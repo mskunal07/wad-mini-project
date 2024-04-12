@@ -9,7 +9,7 @@ export const Private = ({ children }) => {
   const token = useSelector((state) => state.auth.data.token);
   let tokencookies = Cookies.get("jwttoken");
   // console.log("token", token, "cookie", tokencookies);
-  if (!token || tokencookies == undefined) {
+  if (!token || tokencookies === undefined) {
     return <Navigate to={"/signin"} state={{ from: url }} replace />;
   } else {
     return children;

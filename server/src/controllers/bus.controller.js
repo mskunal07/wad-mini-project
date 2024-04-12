@@ -15,7 +15,7 @@ app.post("/addnew", async (req, res) => {
 });
 
 app.post("/getall", async (req, res) => {
-  // console.log(req.body);
+  console.log(req.body);
   try {
     let sourceStr = req.body.from;
     let destinationStr = req.body.to;
