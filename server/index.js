@@ -30,3 +30,7 @@ app.listen(port, async () => {
     console.log(error.message);
   }
 });
+
+
+//  http://localhost:8080/user
+//  http://localhost:8080/api/payment
